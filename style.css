@@ -1,0 +1,153 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+
+}
+
+a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    margin-right: 36px;
+    cursor: pointer;
+}
+
+.ir {
+    box-sizing: content-box;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 69px;
+    height: 24px;
+    padding: 13px 29px;
+    cursor: pointer;
+}
+
+img {
+    display: inline-block;
+    margin-top: 177px;
+    margin-left: 121px;
+}
+
+div {
+    display: inline-block;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    width: 582px;
+    height: 164px;
+    margin-bottom: 47px;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    width: 493px;
+    height: 99px;
+    margin-bottom: 55px;
+}
+
+.ler-mais {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #6FBF44;
+    width: 112px;
+    height: 27px;
+    padding: 0;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    header :not(.ir) {
+        display: none;
+    }
+
+    .ir {
+        position: fixed;
+        right: 15px;
+        top: 17px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        padding: 3px 15px;
+    }
+
+    img {
+        position: fixed;
+        bottom: 15px;
+        width: 304px;
+        height: auto;
+        margin: 50px 10px 30px 55px;
+    }
+
+    p {
+        width: 290px;
+        height: 165px;
+        margin-left: 60px;
+        margin-right: 30px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #4B505A;
+    }
+
+    h1 {
+        width: 304px;
+        height: 80px;
+        margin: 76px 55px 29px 55px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.596154px;
+        color: #161A49;
+        position: relative;
+    }
+
+    .ler-mais {
+        position: relative;
+        background: none;
+    }
+
+    div {
+        text-align: center
+    }
+
+}
