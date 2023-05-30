@@ -1,6 +1,6 @@
 ## :file_folder: Desafio CSS
 
-<p>Este foi um projeto desenvolvido através de um Figma para explorar o conhecimento em CSS</p>
+<p>Este foi um projeto desenvolvido através de um Figma para explorar o conhecimento em CSS, possui layout responsivo abaixo de 900px de largura, realizado pelo media query</p>
 
 ## :computer: Tecnologias utilizadas:
 
